@@ -15,7 +15,7 @@ const Meta = ({ pageTitle, description }: Props) => {
 
     return (
         <Head>
-            <title>{pageTitle}</title>
+            <title>{pageTitle} </title>
             <meta name="description" property="og:description" content={description} />
             <meta name="image" property="og:image" content={`${url}/home.png`} />
             <link rel="icon" type="image/svg+xml" href="/icons/rocket.svg" />
